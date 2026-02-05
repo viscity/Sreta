@@ -40,8 +40,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/VISCITY/xbit.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botscomplex")
