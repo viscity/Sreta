@@ -18,7 +18,7 @@ async def brah(_, msg):
 # vc off
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-    await msg.reply("😔 ᴠɪᴅєᴏ ᴄʜαᴛ єηᴅєᴅc💔")
+    await msg.reply("😔 ᴠɪᴅєᴏ ᴄʜαᴛ єηᴅєᴅ 💔")
 
 
 # invite members on vc
